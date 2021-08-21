@@ -1,0 +1,41 @@
+/* smart phone and tablets */
+@media(max-width:767px)
+{
+    .subscribe .form-control 
+    {
+        margin: 20px auto;
+    }
+    
+    .testimonials .carousel-indicators li
+    {
+        margin-top: 35px;
+    }
+}
+/*small screen*/
+@media(min-width:768px)and@media(max-width:991px)
+{
+    
+}
+/* medium screen*/
+@media(min-width:992px)and@media(max-width:1199px)
+{
+    
+}
+/* large screen*/
+@media(min-width:1200px)
+{
+    
+}
+@media(max-width:1221px)
+{
+    .navbar-inverse .navbar-brand span
+    {
+        display: none;
+    }
+}
+@media(max-width:1080px)
+{
+    
+}
+
+

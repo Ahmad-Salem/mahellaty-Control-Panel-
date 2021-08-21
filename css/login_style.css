@@ -1,0 +1,131 @@
+body
+{
+    padding: 0px;
+    margin:0px;
+}
+/* start breadcrumb */
+.breadtrumb_holder
+{
+    margin-top: 80px;
+    font-family:Bold-smooth;
+    font-size: 18px;
+    padding-top: 40px;
+    background-color: #f5f5f5;
+}
+.breadtrumb_holder .breadcrumb
+{
+    padding: 10px 0; 
+    margin-right: 30%;
+    font-family:Bold-smooth;
+}
+.breadtrumb_holder .breadcrumb li a
+{
+    color:#2c3e50;
+    font-family:Bold-smooth;   
+}
+/* end breadcrumb */
+/* start styling login administrator */
+.login_admin
+{
+    font-family: Bold-smooth;
+}
+.login_admin .login_content
+{
+    width:550px;
+    height: 300px;
+    margin: 25px auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.login_admin .login_content .logo_design
+{
+    float: right;
+    width: 300px;
+    height: 100%;
+    background-color: #2c3e50;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.login_admin .login_content .logo_design .logo_image
+{
+    margin-top: 80px;
+    color: #fff;
+    width: 100px;
+    margin-right: 100px;
+}
+.login_admin .login_content .logo_design .logo_image i
+{
+    text-align: center;
+    font-size: 90px
+}
+.login_admin .login_content .logo_design h4
+{
+    color:#fff;
+}
+
+
+.login_admin .login_content .login_form
+{
+    float: left;
+    width:200px;
+    margin-top: 0px;
+}
+.login_admin .login_content .login_form a 
+{
+    color: #2c3e50;
+}
+.login_admin .login_content .login_form h4
+{
+    color:#2c3e50;
+}
+.login_admin .login_content .login_form .input
+{
+    border: 1px solid #ccc;
+    padding: 5px;
+    border-radius: 5px;
+    
+    
+}
+.login_admin .login_content .login_form .btn_log
+{
+    width: 100px;
+    margin-right: 25px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fafafa;
+}
+
+.login_admin .login_content .login_form .btn_log:hover
+{
+    background-color:#2c3e50;
+    color:#fff;
+}
+.login_admin .login_content .login_form a
+{
+    margin-right: 25px;
+    display: block;
+    margin-top: 12px;
+}
+/* end styling login administrator */
+/*start error styling */
+.login_admin .login_content .login_form .error
+{
+    color:#ff0000;
+    font-weight: bolder;
+    font-size: 12px;
+}
+.error_login
+{
+    color:#ff0000;
+    font-weight: bolder;
+    font-size: 12px;
+    text-align: center;
+    font-family: Bold-smooth;
+    font-size: 16px;
+    border: 1px dashed #ff0000;
+    width: 150px;
+    margin: 30px auto;
+    
+}
+/*end styling the error*/

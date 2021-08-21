@@ -1,0 +1,62 @@
+@font-face
+{
+    font-family:Bold-smooth;
+    src:url("../fonts/JF Flat regular.ttf");
+}
+
+/* styling content-model */
+.fading_opacity .mod_dio .mod_con
+{
+    box-shadow: none;
+    border-radius: 0px;
+    border: 1px solid #fff;
+    margin: 150px auto;
+    max-width: 935px;
+    width: 100%;
+    pointer-events:auto;
+    font-family: Bold-smooth;
+}
+
+.fading_opacity .mod_dio .mod_con .modal-body .mod_body
+{
+    margin-bottom:10px;
+
+}
+
+.fading_opacity .mod_dio .mod_con .modal-body:hover
+{
+    background-color: #f0f0f0;
+    cursor: pointer;        
+}
+.fading_opacity .mod_dio .mod_con .modal-body h4 a
+{
+    text-decoration: none;
+    color:#333;
+}
+.fading_opacity .mod_dio .mod_con .modal-body h4:hover
+{font-weight: bolder;}
+.fading_opacity .mod_dio .mod_con  .cansel
+{
+    border-top:1px solid #999999;
+}
+
+
+/*start styling manage user interface */
+.fading_opacity .mod_dio .mod_con .users
+{
+    border:1px solid #ccc;
+}
+.fading_opacity .mod_dio .mod_con .users .content
+{
+    width: 60%;
+    margin: 10px auto;
+    max-height: 300px;
+    overflow-y: scroll;
+}
+.fading_opacity .mod_dio .mod_con .users .content p img
+{
+    width: 80px;
+    height: 80px;
+}
+
+/*end styling manage user interface */
